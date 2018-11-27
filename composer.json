@@ -1,0 +1,30 @@
+{
+  "name": "oangia/packages",
+  "description": "Web packages for laravel and php",
+  "type": "php",
+  "license": "oangia",
+  "authors": [
+    {
+      "name": "oangia",
+      "email": "hqnhatdn@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "intervention/image": "2.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "oangia\\AdminPage\\": "AdminPage/src/",
+      "oangia\\Api\\": "Api/src/",
+      "oangia\\Client\\": "Client/src/",
+      "oangia\\CUrl\\": "CUrl/src/",
+      "oangia\\OAuth\\": "OAuth/src/",
+      "oangia\\Upload\\": "Upload/src/",
+      "oangia\\InAppPurchase\\": "InAppPurchase/src/",
+      "oangia\\apns\\": "apns-PHP/ApnsPHP/"
+    },
+    "files": ["apns-PHP/ApnsPHP/Autoload.php"]
+  }
+}
