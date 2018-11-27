@@ -2,7 +2,7 @@
   "name": "oangia/packages",
   "description": "Web packages for laravel and php",
   "type": "php",
-  "license": "oangia",
+  "license": "proprietary",
   "authors": [
     {
       "name": "oangia",
